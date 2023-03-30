@@ -1,11 +1,8 @@
-import { Heading } from '../components';
+import { AppProps } from 'next/app';
+import '../styles/globals.css';
 
-const Index = () => {
-	return (
-		<div>
-			<Heading tag='h2'>children</Heading>
-		</div>
-	);
-};
+function MyApp({ Component, pageProps }: AppProps): JSX.Element {
+	return <Component {...pageProps} />;
+}
 
-export default Index;
+export default MyApp;
