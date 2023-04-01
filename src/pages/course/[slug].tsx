@@ -35,3 +35,9 @@ interface PageProps extends Record<string, unknown> {
 	page: PageModel[];
 	products: ProductModel[];
 }
+
+interface PageProps extends Record<string, unknown> {
+	menu: MenuItem[];
+	page: PageModel[];
+	products: ProductModel[];
+}
