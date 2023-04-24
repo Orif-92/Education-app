@@ -12,7 +12,6 @@
 
 .header {
 	grid-area: header;
-	display: none;
 }
 
 .body {
@@ -38,37 +37,6 @@
 	}
 
 	.body {
-		padding: 15px;
-	}
-}
-
-.body {
-	grid-area: body;
-}
-
-.sidebar {
-	grid-area: sidebar;
-}
-
-.footer {
-	grid-area: footer;
-}
-
-@media (max-width: 900px) {
-	.wrapper {
-		grid-template-columns: minmax(320px, 1fr);
-		grid-template-areas: 'header' 'body' 'footer';
-	}
-
-	.sidebar {
-		display: none !important;
-	}
-
-	.header {
-		display: block;
-	}
-
-	.body {
-		padding: 15px;
+		padding: 8px;
 	}
 }
